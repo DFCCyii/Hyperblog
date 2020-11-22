@@ -1,11 +1,12 @@
 body{
 
-    color: lightseagreen;
+    color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin: 0;
+    margin: 10;
     padding: 0;
+    margin-bottom: 50%;
 }
 
 #container {
@@ -14,9 +15,25 @@ body{
     padding: 1em;
     text-align: left;
     margin: 0 auto;
-    border: 1px solid lightsteelblue;
+    border: 2px solid black;
+}
+
+#cabecera {
+
+    font-weight: bold;
+    box-shadow: 2px 11px 26px 4px rgba(0,0,0,0.62);
+    background-color: rgb(51, 0, 146);
+    padding: 15px;
+    color: white;
 }
 
 #container h1 {
     font-size: 20px;
+}
+
+#post {
+    
+    margin-top: 20px;
+    padding-bottom: 50%;
+
 }
